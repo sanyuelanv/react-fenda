@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import Home from './home'
-import {Navigator,Text} from 'react-native'
+import {Navigator} from 'react-native'
 
 
 const routeStack = [
