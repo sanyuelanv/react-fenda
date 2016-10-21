@@ -1,11 +1,9 @@
 import React, {Component} from 'react'
 import Home from './home'
-import User from './user'
-import {Navigator} from 'react-native'
+import {Navigator,Text} from 'react-native'
 
 
 const routeStack = [
-    {name:"user",component:User},
     {name:"home",component:Home}
 ]
 
@@ -15,7 +13,7 @@ class App extends Component{
   }
   renderScene(route,navigator){
     let Item = route.component
-    return <Item {...this.props} navigator={navigator} />
+    return <Item navigator={navigator} route={route} />
   }
   render(){
     return (

@@ -10,7 +10,7 @@ class Content extends Component {
         return (
             <View style = {styles.headerBlock} >
                 <View style = {styles.header} >
-                    <Text style = {styles.headerText} >主页</Text>
+                    <Text style = {styles.headerText} >{this.props.text}</Text>
                 </View>
             </View>
         );

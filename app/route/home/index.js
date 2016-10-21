@@ -14,7 +14,7 @@ class App extends Component {
             <View style = {styles.container} >
                 <Header text="主页" />
                 <Content text="主页"/>
-                <Nav {...this.props} route='home' />
+                <Nav {...this.props} routeName={this.props.route.name} />
             </View>
         );
     }
