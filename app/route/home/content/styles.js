@@ -1,8 +1,5 @@
 import {Dimensions} from 'react-native'
-
-var {height, width} = Dimensions.get('window')
-
-console.log(width)
+const {height, width} = Dimensions.get('window')
 
 export default styles = {
     main:{
@@ -25,10 +22,9 @@ export default styles = {
     swiper_2:{
         flex:1,
         position:"absolute",
-        left:width,
         top:0,
         right:0,
         bottom:0,
-        backgroundColor:'#000fff',
+        backgroundColor:'#000',
     }
 }
