@@ -1,10 +1,10 @@
 import React, {Component} from 'react'
-import Home from './home'
+import User from './user'
 import {Navigator} from 'react-native'
 
 
 const routeStack = [
-    {name:"home",component:Home}
+    {name:"home",component:User}
 ]
 
 class App extends Component{
